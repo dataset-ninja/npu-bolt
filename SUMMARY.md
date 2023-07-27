@@ -1,4 +1,4 @@
-**NPU-BOLT: A Dataset for Bolt Object Detection in Natural Scene Images** is a dataset for an object detection task. It is used in the construction industry. 
+**NPU-BOLT: A Dataset for Bolt Object Detection in Natural Scene Images** is a dataset for object detection tasks. It is used in the construction industry. 
 
 The dataset consists of 337 images with 1275 labeled objects belonging to 4 different classes including *bolt_b*, *bolt_a*, *vague*, and other: *bolt_c*.
 
