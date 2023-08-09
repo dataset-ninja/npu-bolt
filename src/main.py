@@ -4,11 +4,11 @@ import os
 import sys
 
 import supervisely as sly
-from dataset_tools import ProjectRepo
 from dotenv import load_dotenv
 
 import src.options as o
 import src.settings as s
+from dataset_tools import ProjectRepo
 from src.convert import convert_and_upload_supervisely_project
 
 PARENT_PATH = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))

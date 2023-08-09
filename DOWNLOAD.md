@@ -1,6 +1,6 @@
-Dataset **NPU-BOLT** can be downloaded in Supervisely format:
+Dataset **NPU-BOLT** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/Y/n/7g/xnCLFdRZXoiqoVhM1SfBwFg2DkGXenB4qHvX9Iti9ZKFcQ57B37P0EWnv8FQrDsK7D6t5BKwrzUwAQtchkdErWakePb6k31HV1y76HAbbHx32LlkU6r6QokV8gZJ.tar)
+ [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/x/D/Ip/aftRwJQOGjtujM9Fkc1erE1tnUY6Yzqvhyj9qRy0TesRXtc8ToF4opeSXrvjWcvZHb3uedgHJ0mBOT2GpfxQmXS1YlnwDG7MHTVtsHFXX5DXeFL5LxkVtMyrvg4o.tar)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
@@ -11,6 +11,8 @@ pip install --upgrade dataset-tools
 ``` python
 import dataset_tools as dtools
 
-dtools.download(dataset='NPU-BOLT', dst_path='~/dtools/datasets/NPU-BOLT.tar')
+dtools.download(dataset='NPU-BOLT', dst_dir='~/dataset-ninja/')
 ```
-The data in original format can be 🔗[downloaded here](https://www.kaggle.com/datasets/yartinz/npu-bolt/download?datasetVersionNumber=3)
+Make sure not to overlook the [python code example](https://developer.supervisely.com/getting-started/python-sdk-tutorials/iterate-over-a-local-project) available on the Supervisely Developer Portal. It will give you a clear idea of how to effortlessly work with the downloaded dataset.
+
+The data in original format can be [downloaded here](https://www.kaggle.com/datasets/yartinz/npu-bolt/download?datasetVersionNumber=3)

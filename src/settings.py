@@ -36,7 +36,7 @@ if RELEASE_DATE is None:
 HOMEPAGE_URL: str = "https://www.kaggle.com/datasets/yartinz/npu-bolt"
 # e.g. "https://some.com/dataset/homepage"
 
-PREVIEW_IMAGE_ID: int = 1456106
+PREVIEW_IMAGE_ID: int = 1850494
 # This should be filled AFTER uploading images to instance, just ID of any image.
 
 GITHUB_URL: str = "https://github.com/dataset-ninja/npu-bolt"
@@ -51,21 +51,27 @@ DOWNLOAD_ORIGINAL_URL: Optional[
 # Optional link for downloading original dataset (e.g. "https://some.com/dataset/download")
 
 CLASS2COLOR: Optional[Dict[str, List[str]]] = {
-    "bolt_b": [230, 25, 75],
-    "bolt_a Roof": [60, 180, 75],
-    "bolt_c": [255, 225, 25],
-    "vague": [0, 130, 200],
+    "blur bolt": [230, 25, 75],
+    "bolt head": [60, 180, 75],
+    "bolt nut": [255, 225, 25],
+    "bolt side": [0, 130, 200],
 }
 # If specific colors for classes are needed, fill this dict (e.g. {"class1": [255, 0, 0], "class2": [0, 255, 0]})
 
 PAPER: Optional[str] = "https://arxiv.org/abs/2205.11191"
-CITATION_URL: Optional[str] = "https://arxiv.org/abs/2205.11191"
+CITATION_URL: Optional[str] = None
 AUTHORS: Optional[List[str]] = ["Yadian Zhao", "Zhenglin Yang", "Chao Xu"]
 
 ORGANIZATION_NAME: Optional[Union[str, List[str]]] = "Northwestern Polytechnical University, China"
 ORGANIZATION_URL: Optional[Union[str, List[str]]] = "https://en.nwpu.edu.cn/"
 
-SLYTAGSPLIT: Optional[Dict[str, List[str]]] = None
+SLYTAGSPLIT: Optional[Dict[str, List[str]]] = {
+    "image-sets": [
+        "captured by authors",
+        "from internet",
+        "3D CAD simulation",
+    ]
+}
 TAGS: List[str] = None
 
 ##################################
