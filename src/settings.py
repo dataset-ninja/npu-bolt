@@ -20,7 +20,10 @@ PROJECT_NAME_FULL: str = "NPU-BOLT: A Dataset for Bolt Object Detection in Natur
 # * After uploading to instance ##
 ##################################
 LICENSE: License = License.CC0_1_0()
-APPLICATIONS: List[Union[Industry, Domain, Research]] = [Industry.Construction()]
+APPLICATIONS: List[Union[Industry, Domain, Research]] = [
+    Industry.Construction(),
+    Domain.Engineering(),
+]
 CATEGORY: Category = Category.Construction()
 
 CV_TASKS: List[CVTask] = [CVTask.ObjectDetection()]
@@ -55,7 +58,7 @@ CLASS2COLOR: Optional[Dict[str, List[str]]] = {
 }
 # If specific colors for classes are needed, fill this dict (e.g. {"class1": [255, 0, 0], "class2": [0, 255, 0]})
 
-PAPER: Optional[str] = "https://arxiv.org/pdf/2205.11191.pdf"
+PAPER: Optional[str] = "https://arxiv.org/abs/2205.11191"
 CITATION_URL: Optional[str] = "https://arxiv.org/abs/2205.11191"
 AUTHORS: Optional[List[str]] = ["Yadian Zhao", "Zhenglin Yang", "Chao Xu"]
 
