@@ -1,6 +1,6 @@
 Dataset **NPU-BOLT** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://www.dropbox.com/scl/fi/wzlqzqtyv8bqiwz5tdyfb/npu-bolt-DatasetNinja.tar?rlkey=3aj78kn0jbkumn9wi583d5fh5&dl=1)
+ [Download](https://assets.supervisely.com/remote/eyJsaW5rIjogImZzOi8vYXNzZXRzLzE1MDlfTlBVLUJPTFQvbnB1LWJvbHQtRGF0YXNldE5pbmphLnRhciIsICJzaWciOiAib1A1d1cvTXNXSnpJOS81YWdEcjVEeTdpT05zaDRZdHhGcTZZUUZZSTBVST0ifQ==)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
